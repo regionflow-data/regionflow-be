@@ -1,0 +1,11 @@
+openapi: 3.0.3
+info:
+  title: RegionFlow API
+  version: 0.1.0
+paths:
+  /api/dashboard:
+    get:
+      summary: Read regional demand dashboard
+      responses:
+        "200":
+          description: Dashboard snapshot
